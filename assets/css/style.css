@@ -1,0 +1,43 @@
+.btn-set .btn{
+    margin-bottom: 10px;
+}
+.btn1{
+   border-radius: 0;
+}
+.btn2{
+    padding: 10px 30px;
+ }
+.btn3{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.btn4{
+    padding: 10px 30px;
+    font-size: 24px;
+}
+.btn5{
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.btn6{
+    background-color: transparent;
+}
+.color-red{
+    color: red;
+}
+.bg-offwhite{
+    background-color: #aaa;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+.formtask6{
+    width: 70%;
+    margin: auto;
+}
+@media only screen and (max-width: 992px) {
+    .formtask6{
+        width: 100%;
+    }
+  }

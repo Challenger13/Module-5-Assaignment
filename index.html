@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Module 5 Assignment</title>
+    <!--css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container my-3">
+        <h1 class="text-center">Module 5 Assignment</h1>
+    </div>
+    <!-- Task 1 -->
+    <div class="container my-3">
+        <h3>Task 1:</h3>
+        <p>Bootstrap css,js and style.css file Successfully added</p>
+    </div>
+
+    <!-- Task 2 -->
+    <div class="container my-3 btn-set">
+        <h3>Task 2:</h3>
+        <button type="button" class="btn btn-primary rounded-0">Primary</button>
+        <button type="button" class="btn btn-secondary px-4">Secondary</button>
+        <button type="button" class="btn btn-success opacity-50">Success</button>
+        <button type="button" class="btn btn-danger btn-lg">Danger</button>
+        <button type="button" class="btn btn-warning btn-sm">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+    </div>
+
+    <!-- Task 3 -->
+    <div class="container my-3">
+        <h3>Task 3 :</h3>
+        <p class="text-danger">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            pariatur, itaque aliquam, voluptates magnam, minima nam nihil omnis
+            facilis eum odio deserunt dolorem? At enim nobis mollitia laboriosam,
+            repellendus aut.
+        </p>
+    </div>
+    <!-- Task 4 -->
+    <div class="container my-3">
+        <h3>Task 4 :</h3>
+        <h1 class="bg-info px-3">H1 tag with background color</h1>
+        <h1 class="bg-offwhite d-inline-block px-3">
+            H1 tag with background color dispay inline block
+        </h1>
+    </div>
+    <!-- Task 5 -->
+    <div class="container my-4">
+        <h3>Task 5 : navbar with dropdown menu</h3>
+        <nav class="navbar navbar-expand-lg bg-dark px-3" data-bs-theme="dark">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="assets/images/Bootstrap_logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Dropdown 1</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Dropdown 2</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Dropdown 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- Task 6 -->
+    <div class="container my-3">
+        <h3>Task 6 : Form with Small input group</h3>
+        <form class="formtask6" action="#">
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text">First name</span>
+                <input type="text" class="form-control" placeholder="First name" id="fname" />
+                <span class="input-group-text">Last name</span>
+                <input type="text" class="form-control" placeholder="Last name" id="lname" />
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text">Email</span>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" />
+                <span class="input-group-text">Phone Number</span>
+                <input type="number" class="form-control" placeholder="Your Phone Number" id="phone" />
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text">Your Resume</span>
+                <input type="file" class="form-control" id="resumeFile" />
+                <label class="input-group-text" for="resumeFile">Upload</label>
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text">Linkedin Profile</span>
+                <span class="input-group-text" id="user-url">
+                    https://www.linkedin.com/in/
+                </span>
+                <input type="text" class="form-control" id="linkedin-url" />
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </form>
+    </div>
+    <!-- Task 7 -->
+    <div class="container mt-3 mb-5">
+        <h3>Task 7 : H2 tag align horizontally in reverse order</h3>
+        <div class="d-flex flex-row-reverse justify-content-around">
+            <h2>H2 Tag 1</h2>
+            <h2>H2 Tag 2</h2>
+            <h2>H2 Tag 3</h2>
+        </div>
+    </div>
+
+    <!--js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
